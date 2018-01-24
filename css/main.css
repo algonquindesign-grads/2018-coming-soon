@@ -1,5 +1,5 @@
 html {
-  background-image: url(../images/coming-soon-background-vertical.jpg);
+  background-image: url(https://images.grads.algonquindesign.ca/2018/backgrounds/coming-soon-background-vertical.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: fixed;
@@ -37,8 +37,8 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  border: 20px solid transparent;
-  border-image: linear-gradient(-45deg, #1aadac, #253d87);
+  border: 20px solid #253d87;
+  border-image-source: linear-gradient(-45deg, #1aadac, #253d87);
   border-image-slice: 1;
   position: fixed;
 }
@@ -92,7 +92,7 @@ body {
   }
 
   html {
-    background-image: url(../images/coming-soon-background.jpg);
+    background-image: url(https://images.grads.algonquindesign.ca/2018/backgrounds/coming-soon-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -124,7 +124,7 @@ body {
   }
 
   html {
-    background-image: url(../images/coming-soon-background.jpg);
+    background-image: url(https://images.grads.algonquindesign.ca/2018/backgrounds/coming-soon-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: fixed;
