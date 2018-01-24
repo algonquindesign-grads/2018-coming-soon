@@ -1,0 +1,145 @@
+html {
+  background-image: url(../images/coming-soon-background-vertical.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-color: #10b2ac;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.reboot-logo {
+  transform: translateX(-50%);
+  left: 50%;
+  max-width: 25%;
+  position: absolute;
+  padding-top: .5em;
+}
+
+.big-border {
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  border: solid 10px white;
+  position: fixed;
+  pointer-events: none;
+}
+
+.big-border-blue {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 20px solid transparent;
+  border-image: linear-gradient(-45deg, #1aadac, #253d87);
+  border-image-slice: 1;
+  position: fixed;
+}
+
+.text-cards {
+  width: 90%;
+  padding-top: 10em;
+  max-width: 40em;
+  padding-bottom: 3em;
+}
+
+.next-event,
+.main-event {
+  min-width: 30vw;
+  padding: 2em 2em 0 2em;
+}
+
+.event-name {
+  font-weight: 100;
+}
+
+.event-header {
+  font-weight: 700;
+}
+
+.white-border {
+  border-bottom: 2px solid white;
+}
+
+.event-copy {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .text-cards {
+    padding-top: 15em;
+  }
+
+  .reboot-logo {
+    max-width: 20%;
+    padding-top: 1.5em;
+  }
+
+  .big-border {
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    border: solid 20px white;
+  }
+
+  html {
+    background-image: url(../images/coming-soon-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: fixed;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .text-cards {
+    max-width: 50em;
+    padding-top: 16em;
+  }
+
+  .big-border {
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    border: solid 20px white;
+  }
+
+  .reboot-logo {
+    max-width: 15%;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  html {
+    background-image: url(../images/coming-soon-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: fixed;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .reboot-logo {
+    max-width: 13%;
+  }
+
+  .text-cards {
+    width: 80%;
+  }
+
+}
