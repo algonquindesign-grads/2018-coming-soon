@@ -4,9 +4,9 @@ html {
   background-repeat: no-repeat;
   background-position: fixed;
   background-color: #10b2ac;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   min-height: 100vh;
 }
 
