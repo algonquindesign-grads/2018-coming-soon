@@ -68,11 +68,11 @@ body {
 
 /* Footer */
 
-.social-link svg {
+svg {
   fill: #fff;
 }
 
-.social-link:hover svg {
+svg:hover {
   fill: #253d87;
 }
 
