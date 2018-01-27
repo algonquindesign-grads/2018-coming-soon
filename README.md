@@ -7,8 +7,17 @@ The coming soon splash page for the 2018 Algonquin Design Grad website.
 ---
 
 ## Team Members
-
+Shout out to Thomas Bradley! You are a dino-mite professor!
 - [@thomasjbradley](https://github.com/thomasjbradley)
+- [@matthewpeixoto](https://github.com/matthewpeixoto)
+- [@jsurtees](https://github.com/jsurtees)
+- [@kaylaobritsch](https://github.com/kaylaobritsch)
+- [@emnemdesign](https://github.com/emnemdesign)
+- [@kaikeekat](https://github.com/kaikeekat)
+- [@cmuxlow](https://github.com/cmuxlow)
+- [@jenna-brady](https://github.com/jenna-brady)
+- [@DoctorDiLauro](https://github.com/DoctorDiLauro)
+- [@refkoer](https://github.com/refkoer)
 
 ---
 
