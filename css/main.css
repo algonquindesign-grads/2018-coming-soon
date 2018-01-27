@@ -5,7 +5,7 @@ html {
   background-image: url(https://grads.images.algonquindesign.ca/2018/backgrounds/coming-soon-background-vertical.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: fixed;
+  background-attachment: fixed;
   background-color: #10b2ac;
 
   color: #fff;
@@ -101,9 +101,6 @@ body {
 
   html {
     background-image: url(https://grads.images.algonquindesign.ca/2018/backgrounds/coming-soon-background.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: fixed;
   }
 
 }
@@ -123,28 +120,13 @@ body {
     border: solid 20px white;
   }
 
-  .reboot-logo {
-    max-width: 15%;
-  }
-
   h1 {
     margin: 0;
-  }
-
-  html {
-    background-image: url(https://grads.images.algonquindesign.ca/2018/backgrounds/coming-soon-background.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: fixed;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
-
-  .reboot-logo {
-    max-width: 13%;
-  }
 
   .text-cards {
     width: 80%;
