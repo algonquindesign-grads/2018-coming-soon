@@ -68,11 +68,11 @@ body {
 
 /* Footer */
 
-svg {
+a svg {
   fill: white;
 }
 
-svg:hover {
+a svg:hover {
   fill: #253d87;
 }
 
