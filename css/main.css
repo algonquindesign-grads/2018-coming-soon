@@ -69,7 +69,7 @@ body {
 /* Footer */
 
 a svg {
-  fill: white;
+  fill: #ffffff !important;
 }
 
 a svg:hover {
