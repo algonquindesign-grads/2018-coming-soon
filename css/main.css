@@ -1,17 +1,24 @@
 html {
+  min-height: 100vh;
+  min-width: 320px;
+
   background-image: url(https://grads.images.algonquindesign.ca/2018/backgrounds/coming-soon-background-vertical.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: fixed;
   background-color: #10b2ac;
+
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  min-height: 100vh;
 }
 
 body {
   min-height: 100vh;
+}
+
+.fw-100 {
+  font-weight: 100;
 }
 
 .reboot-logo {
@@ -45,34 +52,35 @@ body {
 }
 
 .text-cards {
-  width: 90%;
+  width: 80%;
   padding-top: 10em;
   max-width: 40em;
   padding-bottom: 3em;
-}
-
-.next-event,
-.main-event {
-  padding: 2em 2em 0 2em;
-}
-
-.event-name {
-  font-weight: 100;
 }
 
 .event-header {
   font-weight: 700;
 }
 
-.white-border {
+.border-b {
   border-bottom: 2px solid white;
 }
 
-.event-copy {
-  font-weight: 400;
+/* Footer */
+
+.social-link {
+  color: #fff;
+}
+
+.social-link:hover {
+  opacity: .65;
 }
 
 @media only screen and (min-width: 38em) {
+
+  .text-left-right {
+    text-align: right;
+  }
 
   .text-cards {
     padding-top: 15em;
