@@ -68,11 +68,11 @@ body {
 
 /* Footer */
 
-a svg {
-  fill: #ffffff !important;
+.icon svg {
+  fill: #ffffff;
 }
 
-a svg:hover {
+.icon svg:hover {
   fill: #253d87;
 }
 
