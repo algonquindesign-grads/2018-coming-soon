@@ -68,12 +68,12 @@ body {
 
 /* Footer */
 
-.social-link {
-  color: #fff;
+.social-link svg {
+  fill: #fff;
 }
 
-.social-link:hover {
-  opacity: .65;
+.social-link:hover svg {
+  fill: #253d87;
 }
 
 @media only screen and (min-width: 38em) {
