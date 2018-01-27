@@ -21,12 +21,12 @@ body {
   font-weight: 100;
 }
 
-.reboot-logo {
-  transform: translateX(-50%);
-  left: 50%;
-  max-width: 9rem;
-  position: absolute;
-  padding-top: .5em;
+.pad-t-4 {
+  padding-top: 5.2rem;
+}
+
+.border-b {
+  border-bottom: 2px solid white;
 }
 
 .big-border {
@@ -34,8 +34,9 @@ body {
   left: 20px;
   bottom: 20px;
   right: 20px;
+
   border: solid 10px white;
-  position: fixed;
+
   pointer-events: none;
 }
 
@@ -44,36 +45,25 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
+
   border: 20px solid #253d87;
   border-image-source: linear-gradient(-45deg, #1aadac, #253d87);
   border-image-slice: 1;
-  position: fixed;
+
   pointer-events: none;
 }
 
 .text-cards {
   width: 80%;
-  padding-top: 10em;
   max-width: 40em;
-  padding-bottom: 3em;
 }
 
-.event-header {
-  font-weight: 700;
+.social-link {
+  color: #ffffff;
 }
 
-.border-b {
-  border-bottom: 2px solid white;
-}
-
-/* Footer */
-
-.icon svg {
-  fill: #ffffff;
-}
-
-.icon svg:hover {
-  fill: #253d87;
+.social-link:hover {
+  opacity: .65;
 }
 
 @media only screen and (min-width: 38em) {
@@ -82,53 +72,32 @@ body {
     background-image: url("https://grads.images.algonquindesign.ca/2018/backgrounds/coming-soon-background.jpg");
   }
 
-  .text-left-right {
-    text-align: right;
+  .header {
+    margin-bottom: 5.6rem;
   }
 
-  .text-cards {
-    padding-top: 15em;
-  }
-
-  .reboot-logo {
-    padding-top: 1.5em;
+  .pad-t-4 {
+    padding-top: 5.6rem;
   }
 
   .big-border {
-    top: 20px;
-    left: 20px;
-    bottom: 20px;
-    right: 20px;
-    border: solid 20px white;
+    border-width: 20px;
+  }
+
+  .text-cards {
+    max-width: 52em;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  .text-cards {
-    max-width: 50em;
-    padding-top: 16em;
+  .header {
+    margin-bottom: 6rem;
   }
 
-  .big-border {
-    top: 20px;
-    left: 20px;
-    bottom: 20px;
-    right: 20px;
-    border: solid 20px white;
-  }
-
-  h1 {
-    margin: 0;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  .text-cards {
-    width: 80%;
+  .pad-t-4 {
+    padding-top: 6rem;
   }
 
 }
