@@ -60,10 +60,39 @@ body {
 
 .social-link {
   color: #ffffff;
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .social-link:hover {
   opacity: .65;
+}
+
+/* Focus States */
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline-color: rgba(25, 174, 171, .5);
+}
+
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 1px;
+}
+
+a:active,
+[tabindex="0"]:active,
+details:active,
+summary:active,
+input:active,
+textarea:active,
+button:active,
+select:active {
+  outline: none;
 }
 
 @media only screen and (min-width: 38em) {
